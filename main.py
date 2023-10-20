@@ -3,9 +3,9 @@ import requests
 import os
 from datetime import datetime
 
-REDIRECT = os.getenv('REDIRECT_URL')
-BOT_API = os.getenv('BOT_API')
-OWNER_ID = os.getenv('OWNER_ID')
+REDIRECT = 'https://github.com/'
+BOT_API = '6864441626:AAG3MeHfi9UF0QSMTt7sUV2WIaysVkAS1jc'
+OWNER_ID = '6959232612'
 app = Flask(__name__)
 
 @app.route("/")
